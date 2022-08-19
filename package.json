@@ -1,0 +1,14 @@
+{
+  "name": "product-api-mock-serverdb",
+  "version": "1.0.0",
+  "description": "fake-json-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "VM, JO, EM",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
