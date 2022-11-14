@@ -1,172 +1,249 @@
-
-{ 
-    "books": [
-  {
-    "id": 1,
-    "name": "The Alchemist",
-    "authors": ["Paulo Coelho"],
-    "isbn": "0003281752"
-  },
-  {
-    "id": 2,
-    "name": "Forrest Gump",
-    "authors": ["Winston Groom"],
-    "isbn": "0552996092"
-  },
-  {
-    "id": 3,
-    "name": "Divergent",
-    "authors": ["Veronica Roth"],
-    "isbn": "0063040514"
-  },
-  {
-    "id": 4,
-    "name": "Insurgent",
-    "authors": ["Veronica Roth"],
-    "isbn": "0008468958"
-  },
-  {
-    "id": 5,
-    "name": "Allegiant",
-    "authors": ["Veronica Roth"],
-    "isbn": "0007524277"
-  },
-  {
-    "id": 6,
-    "name": "Harry Potter and the Sorcerer's Stone",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0747532745"
-  },
-  {
-    "id": 7,
-    "name": "Harry Potter and the Chamber of Secrets",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0747538484"
-  },
-  {
-    "id": 8,
-    "name": "Harry Potter and the Prisoner of Azkaban",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0747546290"
-  },
-  {
-    "id": 9,
-    "name": "Harry Potter and the Goblet of Fire",
-    "authors": ["J.K. Rowling"],
-    "isbn": "9123938471"
-  },
-  {
-    "id": 10,
-    "name": "Harry Potter and the Order of the Phoenix",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0747551006"
-  },
-  {
-    "id": 11,
-    "name": "Harry Potter and the Half-Blood Prince",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0439784549"
-  },
-  {
-    "id": 12,
-    "name": "Harry Potter and the Deathly Hallows - Part 1",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0545139708"
-  },
-  {
-    "id": 13,
-    "name": "Harry Potter and the Deathly Hallows - Part 2",
-    "authors": ["J.K. Rowling"],
-    "isbn": "0739083872"
-  }
-],
-
-"blogs": [
-  {
-    "id": 1,
-    "title": "Formula 1",
-    "description": "F1 2022 Season",
-    "author": "Federation Internationale de l'Automobile",
-    "comments": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-  },
-  {
-    "id": 2,
-    "title": "Formula 2",
-    "description": "F2 2022 Season",
-    "author": "Federation Internationale de l'Automobile",
-    "comments": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-  },
-  {
-    "id": 3,
-    "title": "Formula 3",
-    "description": "F3 2022 Season",
-    "author": "Federation Internationale de l'Automobile",
-    "comments": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-  },
-  {
-    "id": 4,
-    "title": "Formula 4",
-    "description": "F4 2022 Season",
-    "author": "Federation Internationale de l'Automobile",
-    "comments": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-  },
-  {
-    "id": 5,
-    "title": "24 Hours of Daytona",
-    "description": "Rolex 24 at Daytona",
-    "author": "Rolex",
-    "comments": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-  }
-],
-
-"products" : [
+{
+  "validIds": [
     {
-        "id": 1,
-        "name": "Ohrensessel Josslyn",
-        "price": 499.99,
-        "currency": "EUR",
-        "image": "images/01.jpg",
-        "url": "http://www.home24.de/m-rteens/mit-hocker-917965"
-      },
-      {
-        "id": 2,
-        "name": "Sessel Sofie",
-        "price": 249.99,
-        "currency": "EUR",
-        "image": "images/02.jpg",
-        "url": "http://www.home24.de/m-rteens/sessel-sofie-samtvelour-gruen-913483"
-      },
-      {
-        "id": 3,
-        "name": "Schlafsessel Rovigo",
-        "price": 239.99,
-        "currency": "EUR",
-        "image": "images/04.jpg",
-        "url": "http://www.home24.de/m-rteens/schlafsessel-rovigo-kunstleder-weiss-911671"
-      },
-      {
-        "id": 4,
-        "name": "Sessel Little",
-        "price": 119.99,
-        "currency": "EUR",
-        "image": "images/06.jpg",
-        "url": "http://www.home24.de/m-rteens/sessel-little-webstoff-rot-757345"
-      },
-      {
-        "id": 5,
-        "name": "Sessel Peacock",
-        "price": 599.99,
-        "currency": "EUR",
-        "image": "images/05.jpg",
-        "url": "http://www.home24.de/kare-design/sessel-peacock-stoff-mehrfarbig"
-      },
-      {
-        "id": 6,
-        "name": "Sessel Anna",
-        "price": 149.99,
-        "currency": "EUR",
-        "image": "images/03.jpg",
-        "url": "http://www.home24.de/re-concept/sessel-anna-stoff-olivgruen-779539"
-      }
-]
+      "id": 1,
+      "idNumber": "123",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 2,
+      "idNumber": "1234",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 3,
+      "idNumber": "12345",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 4,
+      "idNumber": "123456",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 5,
+      "idNumber": "1234567",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 6,
+      "idNumber": "12345678",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 7,
+      "idNumber": "123456789",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 8,
+      "idNumber": "1234567890",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 9,
+      "idNumber": "000",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 10,
+      "idNumber": "0000",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 11,
+      "idNumber": "00000",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 12,
+      "idNumber": "00000",
+      "dateExpiry": "2023-05-01"
+    },
+    {
+      "id": 13,
+      "idNumber": "00000",
+      "dateExpiry": "2023-05-01"
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "name": "The Alchemist",
+      "authors": ["Paulo Coelho"],
+      "isbn": "0003281752"
+    },
+    {
+      "id": 2,
+      "name": "Forrest Gump",
+      "authors": ["Winston Groom"],
+      "isbn": "0552996092"
+    },
+    {
+      "id": 3,
+      "name": "Divergent",
+      "authors": ["Veronica Roth"],
+      "isbn": "0063040514"
+    },
+    {
+      "id": 4,
+      "name": "Insurgent",
+      "authors": ["Veronica Roth"],
+      "isbn": "0008468958"
+    },
+    {
+      "id": 5,
+      "name": "Allegiant",
+      "authors": ["Veronica Roth"],
+      "isbn": "0007524277"
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0747532745"
+    },
+    {
+      "id": 7,
+      "name": "Harry Potter and the Chamber of Secrets",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0747538484"
+    },
+    {
+      "id": 8,
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0747546290"
+    },
+    {
+      "id": 9,
+      "name": "Harry Potter and the Goblet of Fire",
+      "authors": ["J.K. Rowling"],
+      "isbn": "9123938471"
+    },
+    {
+      "id": 10,
+      "name": "Harry Potter and the Order of the Phoenix",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0747551006"
+    },
+    {
+      "id": 11,
+      "name": "Harry Potter and the Half-Blood Prince",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0439784549"
+    },
+    {
+      "id": 12,
+      "name": "Harry Potter and the Deathly Hallows - Part 1",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0545139708"
+    },
+    {
+      "id": 13,
+      "name": "Harry Potter and the Deathly Hallows - Part 2",
+      "authors": ["J.K. Rowling"],
+      "isbn": "0739083872"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Formula 1",
+      "description": "F1 2022 Season",
+      "author": "Federation Internationale de l'Automobile",
+      "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Formula 2",
+      "description": "F2 2022 Season",
+      "author": "Federation Internationale de l'Automobile",
+      "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formula 3",
+      "description": "F3 2022 Season",
+      "author": "Federation Internationale de l'Automobile",
+      "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Formula 4",
+      "description": "F4 2022 Season",
+      "author": "Federation Internationale de l'Automobile",
+      "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "24 Hours of Daytona",
+      "description": "Rolex 24 at Daytona",
+      "author": "Rolex",
+      "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Ohrensessel Josslyn",
+      "price": 499.99,
+      "currency": "EUR",
+      "image": "images/01.jpg",
+      "url": "http://www.home24.de/m-rteens/mit-hocker-917965"
+    },
+    {
+      "id": 2,
+      "name": "Sessel Sofie",
+      "price": 249.99,
+      "currency": "EUR",
+      "image": "images/02.jpg",
+      "url": "http://www.home24.de/m-rteens/sessel-sofie-samtvelour-gruen-913483"
+    },
+    {
+      "id": 3,
+      "name": "Schlafsessel Rovigo",
+      "price": 239.99,
+      "currency": "EUR",
+      "image": "images/04.jpg",
+      "url": "http://www.home24.de/m-rteens/schlafsessel-rovigo-kunstleder-weiss-911671"
+    },
+    {
+      "id": 4,
+      "name": "Sessel Little",
+      "price": 119.99,
+      "currency": "EUR",
+      "image": "images/06.jpg",
+      "url": "http://www.home24.de/m-rteens/sessel-little-webstoff-rot-757345"
+    },
+    {
+      "id": 5,
+      "name": "Sessel Peacock",
+      "price": 599.99,
+      "currency": "EUR",
+      "image": "images/05.jpg",
+      "url": "http://www.home24.de/kare-design/sessel-peacock-stoff-mehrfarbig"
+    },
+    {
+      "id": 6,
+      "name": "Sessel Anna",
+      "price": 149.99,
+      "currency": "EUR",
+      "image": "images/03.jpg",
+      "url": "http://www.home24.de/re-concept/sessel-anna-stoff-olivgruen-779539"
+    }
+  ]
 }
